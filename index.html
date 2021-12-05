@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <!-- Crie aqui seu css -->
-    <title>Site sei lá</title>
+    <title>Avaliação</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(162, 241, 175)">
         <div class="container-fluid">
-          <a class="navbar-brand" href="img/icone/1.jpg">Menu</a>
+          <a class="navbar-brand">
+            <img src="img/icone/logo.png" alt="" width="30" height="24">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -32,10 +34,9 @@
                   Coisas aleatórias
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Não sei</a></li>
-                  <li><a class="dropdown-item" href="#">Também não sei</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li section="dale"><a class="dropdown-item" href="#">Não sei</a></li>
+                  <li section="dele"><a class="dropdown-item" href="#">Também não sei</a></li>
+                  <li section="doli"><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
             </ul>
@@ -69,10 +70,10 @@
         </button>
       </div>
       <div class="container">
-            <section id="1o">
-              <div class="row">
+            <section id="1o" section="dale"> 
+              <div class="row d-flex align-items-center">
                   <h1 class="text-center"> Sessão 1</h1>
-            <div class="col-md-4">
+            <div class="col-md-4 m-0">
                 <img src="img/galeria/1.jpg" width="100%">
             </div>
                     <div class="col-md-6">
@@ -85,7 +86,7 @@
                     </div>
             </div>
             </section>
-            <section id="2o">
+            <section id="2o" section="dele">
                 <div class="row">
                     <h1 class="text-center">Sessão 2</h1>
                 </div>
@@ -106,7 +107,7 @@
                 </div>
 
             </section>
-            <section id="2o">
+            <section id="3o" section="doli">
                 <div class="row galeria">
                     <h1 class="text-center">Galeria</h1>
                     <div class="col-md-4 text-center">
@@ -132,43 +133,9 @@
       </div>
            
 <!-- Footer -->
-<footer class="bg-dark text-center text-white sla">
+<footer class="text-center text-white sla" style="background-color: rgb(162, 241, 175);">
     <!-- Grid container -->
     <div class="container p-4">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-  
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
-  
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-google"></i
-        ></a>
-  
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
-  
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-  
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
-      </section>
-      <!-- Section: Social media -->
-  
       <!-- Section: Form -->
       <section class="">
         <form action="">
@@ -205,29 +172,11 @@
         </form>
       </section>
       <!-- Section: Form -->
-  
-      <!-- Section: Text -->
-      <section class="mb-4">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-          eum harum corrupti dicta, aliquam sequi voluptate quas.
-        </p>
-      </section>
-      <!-- Section: Text -->
-  
-      <!-- Section: Links -->
-      <section class="">
-        <!--Grid row-->
-    
-        <!--Grid row-->
-      </section>
-      <!-- Section: Links -->
     </div>
     <!-- Grid container -->
   
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <div class="text-center p-3" style="background-color: rgb(114, 230, 139);">
       © 2021 Raíssa
     </div>
     <!-- Copyright -->
@@ -235,5 +184,7 @@
   <!-- Footer -->
   
 <script src="js/bootstrap.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/functions.js"></script>
 </body>
 </html>
