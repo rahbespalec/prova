@@ -90,3 +90,20 @@ and (max-width: 769px){
 .galeria img:hover{
     transform: scale(1.2);
 }
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.877); 
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(51, 238, 113); 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(80, 136, 34); 
+}
