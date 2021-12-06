@@ -132,13 +132,16 @@ p{
 
 .botao {
     color: white;
-    background: blue;
-    transition: background 1s;
+    background-color: rgb(170, 212, 129);
+    
+  
   }
   
   .botao:hover,
   .botao:focus {
-    background: red;
+    color: black;
+    background-color:rgb(173, 245, 101);
+    border:black;
   }
 
 .oi img{
