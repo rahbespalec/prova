@@ -128,3 +128,17 @@ p{
 .sla button{
     color:black;
 }
+
+.botao {
+    color: white;
+    background: blue;
+    transition: background 1s;
+  }
+  
+  .botao:hover,
+  .botao:focus {
+    background: red;
+  }
+
+
+
