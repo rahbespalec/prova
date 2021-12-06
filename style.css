@@ -107,3 +107,7 @@ and (max-width: 769px){
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(80, 136, 34); 
 }
+
+h1{
+    color:green;
+}
