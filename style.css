@@ -110,4 +110,21 @@ and (max-width: 769px){
 
 h1{
     color:green;
+    font-family: fantasy;
+}
+
+p{
+    font-family:cursive
+}
+
+.sla p {
+    color:black;
+}
+
+.sla label{
+    color:black;
+}
+
+.sla button{
+    color:black;
 }
